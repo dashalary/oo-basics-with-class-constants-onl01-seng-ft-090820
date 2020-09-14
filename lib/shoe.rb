@@ -18,6 +18,7 @@ class Shoe
     @size = size
     if @brand.size == 3
       BRANDS << brand
+    end
   end
   
 end
