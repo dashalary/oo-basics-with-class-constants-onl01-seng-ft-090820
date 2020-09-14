@@ -14,5 +14,11 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
+  def size=(size)
+    @size = size
+    if @brand.size == 3
+      BRANDS << brand
+    end
+  end
   
 end
