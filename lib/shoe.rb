@@ -14,6 +14,8 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  def size=
+  def size=(size)
+    
+  end
   
 end
